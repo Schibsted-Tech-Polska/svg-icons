@@ -1,0 +1,19 @@
+{
+  "name": "svg-icons",
+  "version": "0.1.0",
+  "authors": [
+    "Marek Nogiec <marek.nogiec@schibsted.pl>"
+  ],
+  "description": "Automated SVG sprites generation for using icons as CSS background",
+  "main": "src/bt-icons.scss",
+  "keywords": [
+    "svg", "icons"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    ".tmp",
+    "node_modules"
+  ],
+  "dependencies": {}
+}

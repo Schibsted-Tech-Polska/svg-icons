@@ -1,0 +1,22 @@
+{
+  "icon-arrow-down": {
+    "width": "1em",
+    "height": "1em"
+  },
+  "icon-arrow-left": {
+    "width": "1em",
+    "height": "1em"
+  },
+  "icon-arrow-right": {
+    "width": "1em",
+    "height": "1em"
+  },
+  "icon-arrow-up": {
+    "width": "1em",
+    "height": "1em"
+  },
+  "icon-eye": {
+    "width": "1.5em",
+    "height": "1em"
+  }
+}

@@ -1,0 +1,76 @@
+%icon {
+    &::before {
+        content: "";
+        background-size: cover;
+        display: inline-block;
+    }
+}
+
+@mixin icon ($color: false) {
+    &::before {
+        background-size: cover;
+        display: inline-block;
+        content: "";
+    }
+    @if ($color != false) {
+        @extend %#{$color};
+    }
+
+}
+
+[class^="icon-"],
+[class^="i-"],
+[class*=" i-"] {
+    @include icon();
+}
+
+%blue {
+    &::before {
+        background-position: 0 10%;
+    }
+}
+%category {
+    &::before {
+        background-position: 0 20%;
+    }
+}
+%category-icon {
+    &::before {
+        background-position: 0 30%;
+    }
+}
+%dark-grey {
+    &::before {
+        background-position: 0 40%;
+    }
+}
+%grey {
+    &::before {
+        background-position: 0 50%;
+    }
+}
+%light-grey {
+    &::before {
+        background-position: 0 60%;
+    }
+}
+%link-magasinet {
+    &::before {
+        background-position: 0 70%;
+    }
+}
+%medium-grey {
+    &::before {
+        background-position: 0 80%;
+    }
+}
+%placeholder {
+    &::before {
+        background-position: 0 90%;
+    }
+}
+%white {
+    &::before {
+        background-position: 0 100%;
+    }
+}
